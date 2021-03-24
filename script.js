@@ -24,6 +24,7 @@ function startGame() {
 
 // setting our next question
 function setNextQuestion () {
+    resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
@@ -42,7 +43,12 @@ function showQuestion(question) {
     })
 }
 
-
+function resetState() {
+    button.classList.add("hide")
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+    }
+}
 
 
 // When selecting a question
@@ -55,6 +61,7 @@ function selectAnswer (e) {
 }
 
 function setStatusClass(element, correct) {
+    console.log("logging element", element)
     clearStatusClass(element) 
     if (correct) {element.classList.add("correct")
     } else {element.classList.add("wrong")
