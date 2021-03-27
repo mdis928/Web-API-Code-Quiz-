@@ -7,6 +7,7 @@
     padding-top: 50px;
     font-size: 45px;
     font-family: Gotham Rounded;
+    color:#8a28cc;
 }
 
 body {
@@ -30,14 +31,15 @@ font-family: Gotham Rounded;
     border-radius: 6px;
     box-shadow: 0 0 10px 2px;
     margin: 60px auto;
-    width: 80vw;
+    width: 51vw;
     padding: 50px;
+    text-align: center;
 }
 
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(1,auto);
-    width: 130px;
+    width: 900px;
     gap: 20px;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +52,8 @@ font-family: Gotham Rounded;
     border-radius: 6px;
     padding: 5px 10px;
     background-color: #a3d2e7;
+
+   
 }
 
 .btn:hover {
