@@ -5,6 +5,9 @@ var questionElement = document.getElementById("question")
 var answerButtonsElement = document.getElementById("answer-buttons")
 var Countdown = 76
 
+
+
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener("click", startGame) 
@@ -91,8 +94,11 @@ function selectAnswer (e) {
 }
 
 function QuizOver(){
-
+    var initials = prompt("Please add your initals");
+    localStorage.setItem("intials")
 }
+
+
 
 
 

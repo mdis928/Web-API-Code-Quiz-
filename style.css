@@ -79,3 +79,11 @@ font-family: Gotham Rounded;
 .hide {
     display: none;
 }
+
+.initial {
+   padding-top: 200px;
+   justify-content: center;
+   padding-left: 1000px;
+   
+
+}
