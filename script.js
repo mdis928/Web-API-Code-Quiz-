@@ -95,7 +95,7 @@ function selectAnswer (e) {
 
 function QuizOver(){
     var initials = prompt("Please add your initals");
-    localStorage.setItem("intials")
+    localStorage.setItem("intials", initials)
 }
 
 
